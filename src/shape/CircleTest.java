@@ -28,7 +28,7 @@ public class CircleTest {
 
 	@Test
 	public void testGetPerimeter() {
-		Circle c = new Circle();
+		Circle c = new Circle(1);
 		assertEquals(c.getPerimeter(), 2*PI, DELTA);
 	}
 
